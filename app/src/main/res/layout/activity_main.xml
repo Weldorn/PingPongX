@@ -100,7 +100,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvPlayerTwoName" />
 
     <Button
-        android:id="@+id/btRevenge"
+        android:id="@+id/btFinish"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="62dp"
@@ -110,12 +110,12 @@
         app:layout_constraintTop_toBottomOf="@+id/btPlayerOneScore" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnRematch"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Revanche"
-        app:layout_constraintEnd_toEndOf="@+id/btRevenge"
-        app:layout_constraintStart_toStartOf="@+id/btRevenge"
-        app:layout_constraintTop_toBottomOf="@+id/btRevenge" />
+        app:layout_constraintEnd_toEndOf="@+id/btFinish"
+        app:layout_constraintStart_toStartOf="@+id/btFinish"
+        app:layout_constraintTop_toBottomOf="@+id/btFinish" />
 </androidx.constraintlayout.widget.ConstraintLayout>
